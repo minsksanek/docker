@@ -29,8 +29,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 * PMA - http://localhost:8686
 
 #### Сommands
-* docker-compose up - start
-* docker-compose down - stop
+* docker-compose up
+* docker-compose down
 * docker exec -it web-php bash
 * docker system prune -a
 * docker system prune --volumes
