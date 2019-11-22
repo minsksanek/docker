@@ -14,7 +14,7 @@
 
 Install ubuntu :
 ------------
-##docker 
+## docker 
 
 	sudo apt remove docker docker-engine docker.io
 	sudo apt update && sudo apt install -y apt-transport-https lsb-release ca-certificates
@@ -26,11 +26,11 @@ Install ubuntu :
 	sudo dpkg -i "docker-ce-cli_19.03.3~3-0~ubuntu-disco_amd64.deb"
 	sudo dpkg -i "docker-ce_19.03.3~3-0~ubuntu-disco_amd64.deb"
 
-##docker-compose
+## docker-compose
 	sudo curl -L https://github.com/docker/compose/releases/download/1.24.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 	sudo chmod +x /usr/local/bin/docker-compose
 
- #Файловая структура
+# Файловая структура
 -  database - «проброс» файлов бд.
 -  Docker - папка в которой лежат конфигурации контейнеров
 -  www - папка с проектом
@@ -43,7 +43,7 @@ Install ubuntu :
 
 ------------
 
-#Основные команды
+# Основные команды
 - docker-compose up
 - docker-compose down
 - docker exec -it web-php bash
